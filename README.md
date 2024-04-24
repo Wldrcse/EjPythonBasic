@@ -1,2 +1,2 @@
 # EjPythonBasic
- Repo
+Ejercicios de Python nivel básico
