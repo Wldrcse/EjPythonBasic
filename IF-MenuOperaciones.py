@@ -18,14 +18,14 @@ if ( op >= 1 and op <= 4): # operador and Para agregar 2 condiciones
     num1 = float(input("Ingrese un número: "))
     num2 = float(input("Ingrese otro número: "))
     if ( op == 1):
-        print("La suma de los números ingresados es: {0:.2f}".format(num1+num2))
+        print(f"La suma de los números ingresados es: {(num1+num2):.2f}")
     elif ( op == 2):
-        print("La resta de los números ingresados es: {0:.2f}".format(num1-num2))
+        print(f"La resta de los números ingresados es: {(num1-num2):.2f}")
     elif ( op == 3):
-        print("La multiplicación de los números ingresados es: {0:.2f}".format(num1*num2))
+        print(f"La multiplicación de los números ingresados es: {(num1*num2):.2f}")
     else:
         if ( num2 != 0):
-            print("La división de los números ingresados es: {0:.2f}".format(num1/num2))
+            print(f"La división de los números ingresados es: {(num1/num2):.2f}")
         else:
             print("No se puede dividir entre 0")
 else:
