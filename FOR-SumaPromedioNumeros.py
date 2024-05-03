@@ -1,8 +1,8 @@
 # Sumar números ingresados por pantalla
 n = int(input("Cuantos números desea sumar: "))
 suma = 0
-for i in range(n):
-    num = float(input("Ingrese número: "))
+for i in range(1,n+12):
+    num = float(input(f"Ingrese número {i}: "))
     suma = suma + num
 # Versión 1 para mostrar
 print("La suma de los números ingresados es {0:.2f}".format(suma))
