@@ -42,7 +42,7 @@ print(f"Lista original: {datos}")
 datos[0] = "SENATI"
 print(f"Lista modificada: {datos}")
 
-# Modificar varios elementos desde un índice señalado, hasta otro que corresponda, si el índice es mayor, elimina otros elementos eje
+# Modificar varios elementos desde un índice señalado, hasta otro que corresponda, si el índice es mayor, elimina otros elementos.
 datos[1:4] = [111, 222, 333]
 print(f"Lista modificada: {datos}")
 
