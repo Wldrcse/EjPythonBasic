@@ -39,3 +39,5 @@ print(f"Diccionario modificado: {d4}")
 # Agregar elementos a un diccionario
 d4['Especialidad']='Ingeniería de Software'
 print(f"Diccionario modificado: {d4}")
+
+# Ejercicios
