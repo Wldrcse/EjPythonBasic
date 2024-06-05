@@ -15,7 +15,6 @@ while ( rp ):
             break
         except:
             print("No ha ingresado un número, vuelva a intentarlo!")
-    op = int(op)
     if ( op >= 1 and op <= 4 ):
         while ( True ):
             try:
@@ -40,4 +39,4 @@ while ( rp ):
         print("Saliendo del programa!")
         rp = False
     else:
-            print("No es una opción del menú, vuelva a intentarlo!")
+        print("No es una opción del menú, vuelva a intentarlo!")
