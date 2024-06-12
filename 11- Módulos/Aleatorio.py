@@ -1,8 +1,8 @@
 from random import *
 rp = True
-cant = 1
 while (rp):
     numeroAleatorio =randint(1,100)
+    cant = 1
     print("Adivinar el número aleatorio generado entre: 1 al 100")
     while (True):
         n = int(input("Ingrese un número: "))
